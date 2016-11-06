@@ -1,0 +1,75 @@
+body{
+	font-family: arial;
+	background-color: rgb(238, 238, 238);
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding-left:20%;
+	padding-right:20%;
+	overflow: hidden;
+	background-color: rgb(48, 48, 48);
+	position: static;
+	list-style: none;
+	text-align: center;
+
+}
+
+li{
+	float: left;
+	
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: rgb(250, 250, 250);
+		
+}
+li a:hover:not(.active){
+	background-color: #4CAF50;
+}
+
+.active{
+	background-color: #4CAF50;
+}
+
+.headshot{
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	margin-left: 20%;
+	margin-right: 80%;
+	position:absolute;
+}
+
+.contactinformation{
+	padding-left: 35%;
+}
+
+.content{
+	background-color: rgb(255, 255, 255);
+	margin-top: 10px;
+	margin-left: 20%;
+	margin-right:20%;
+	border:solid 1px;
+}
+
+.content h1{
+	font-size: 30px;
+}
+
+.content2{
+	background-color: rgb(255, 255, 255);
+	margin-top: 10px;
+	margin-left: 20%;
+	margin-right:20%;
+	border:solid 1px;
+}
+
+.content2 h1{
+	font-size: 30px;
+}
