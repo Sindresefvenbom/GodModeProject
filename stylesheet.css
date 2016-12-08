@@ -1,75 +1,217 @@
 body{
-	font-family: arial;
-	background-color: rgb(238, 238, 238);
+	font-family: Arial;
 }
 
+#headPic{
+	border-radius: 50%;
+}
+/*Header list styling*/
 ul{
 	list-style-type: none;
 	margin:0;
-	padding-left:20%;
-	padding-right:20%;
-	overflow: hidden;
-	background-color: rgb(48, 48, 48);
-	position: static;
-	list-style: none;
-	text-align: center;
-
+	padding:0;
+	overflow:hidden;
+	background-color: #333;
 }
 
 li{
-	float: left;
-	
+	float: left;	
 }
 
 li a{
 	display: block;
+	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	color: rgb(250, 250, 250);
-		
 }
+
 li a:hover:not(.active){
 	background-color: #4CAF50;
 }
 
 .active{
 	background-color: #4CAF50;
+	color: black;
+}
+/*Header list styling ends*/
+#textBlock{
+	border: solid 1px;
+	padding: 0.5%;
+}
+/*Text based registraion styling*/
+button{
+	margin-top: 10%;
+	display: block;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	text-decoration: none;
+	background-color: #333;
 }
 
-.headshot{
-	height:200px;
-	width:200px;
-	border-radius:50%;
-	margin-left: 20%;
-	margin-right: 80%;
-	position:absolute;
+#textReg{
+	
 }
 
-.contactinformation{
-	padding-left: 35%;
+#textReg2{
+	position: absolute;
+	bottom: 89%;
+	left: 34%;
 }
 
-.content{
-	background-color: rgb(255, 255, 255);
-	margin-top: 10px;
-	margin-left: 20%;
-	margin-right:20%;
-	border:solid 1px;
+#textReg3{
+	position: absolute;
+	bottom: 83%;
+	left: 34%;
 }
 
-.content h1{
-	font-size: 30px;
+#textReg4{
+	position: absolute;
+	bottom: 89%;
+	left: 45%;
 }
 
-.content2{
-	background-color: rgb(255, 255, 255);
-	margin-top: 10px;
-	margin-left: 20%;
-	margin-right:20%;
-	border:solid 1px;
+#textReg5{
+	position: absolute;
+	bottom: 83%;
+	left: 45%;
 }
 
-.content2 h1{
-	font-size: 30px;
+#textReg6{
+	position: absolute;
+	bottom: 77%;
+	left: 45%;
+}
+
+#textReg7{
+	position: absolute;
+	bottom: 71%;
+	left: 45%;
+}
+
+#textReg8{
+	position: absolute;
+	bottom: 65%;
+	left: 45%;
+}
+
+#textReg9{
+	position: absolute;
+	bottom: 77%;
+	left: 56%;
+}
+/*Text based regstyling ends*/
+
+/*prototype buttons 3D sketch*/
+#save{
+	position: absolute;
+	left: 67.5%;
+	bottom: 90%;
+}
+
+#but1{
+	position: absolute;
+	left:30%;
+	bottom: 22%;
+}
+
+#but2{
+	position: absolute;
+	left: 40%;
+	bottom: 22%;
+}
+
+#but3{
+	position: absolute;
+	left: 50%;
+	bottom: 22%;
+}
+
+#but4{
+	position: absolute;
+	left: 60%;
+	bottom: 22%;
+}
+/*3D sketch styling ends*/
+.container{
+	max-width: 860px;
+	width: 96%;
+	margin: 0 auto;
+}
+
+.container:before, .container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+@media screen and (max-width:768px){
+	.grid-mobile-1{
+		width: calc((100%/4)*1);
+	}
+	.grid-mobile-2{
+		width: calc((100%/4)*2);
+	}
+	.grid-mobile-3{
+		width: calc((100%/4)*3);
+	}
+	.grid-mobile-4{
+		width: calc((100%/4)*4);
+	}
+}
+
+[class*="grid-"]{
+	box-sizing: border-box;
+	display: block;
+	float:left;
+}
+
+.grid-1{
+	width: calc((100%/12)*1);
+}
+
+.grid-2{
+	width: calc((100%/12)*2);
+}
+
+.grid-3{
+	width: calc((100%/12)*3);
+}
+
+.grid-4{
+	width: calc((100%/12)*4);
+}
+
+.grid-5{
+	width: calc((100%/12)*5);
+}
+
+.grid-6{
+	width: calc((100%/12)*6);
+}
+
+.grid-7{
+	width: calc((100%/12)*7);
+}
+
+.grid-8{
+	width: calc((100%/12)*8);
+}
+
+.grid-9{
+	width: calc((100%/12)*9);
+}
+
+.grid-10{
+	width: calc((100%/12)*10);
+}
+
+.grid-11{
+	width: calc((100%/12)*11);
+}
+
+.grid-12{
+	width: calc((100%/12)*12);
 }

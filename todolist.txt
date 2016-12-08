@@ -1,0 +1,7 @@
+to do, portefølje og Masterprosjekt
+
+- clickable prototype for alternative interaction model
+- finish styling and creating CV portfolio page
+	- includes index (about me)
+	- includes Experience (compartmentalised description of jobs
+	- Includes Projects (same design as exp, with URL for showing)
